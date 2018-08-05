@@ -1,0 +1,17 @@
+function getLength(str) {
+  "use strict";
+
+  // change code below this line
+  const {length : len} = str; // change this
+  // change code above this line
+
+  //Note: Super Confusing
+  // Q. What Happens in line 5:
+  // A. Constant len is defined as the strings length
+  // The Code destructured the string propery of length and defined it as len
+
+  return len; // you must assign length to len in line
+
+}
+
+console.log(getLength('FreeCodeCamp'));
