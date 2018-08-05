@@ -1,0 +1,13 @@
+const createPerson = (name, age, gender) => {
+  "use strict";
+  // change code below this line
+  const Person = (name, age, gender) => ({name, age, gender});
+  // Note: The code on line 4:
+    // creates a Person object and populates the it with name/value pairs from the 3 argumants passed into the createPerson method.
+    // The values of the new name/value pairs in the Person object are initialised automatically by ES6 'under the hood'.
+    // This is some Syntactic Sugar
+
+  return Person;
+  // change code above this line
+};
+console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
